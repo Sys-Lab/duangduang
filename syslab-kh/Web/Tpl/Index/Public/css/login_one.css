@@ -1,0 +1,66 @@
+body{
+	margin:0 auto;
+
+}
+div {
+	margin:0 auto;
+}
+.bj{
+	width: 1600px;
+	height: 800px;
+	background:url(/syslab-kh/Web/Tpl/Index/Public/images/bj2.png);
+
+}
+.top{
+	position:relative; 
+	left:0px; /*左右位置*/ 
+	top:0px;/*上下位置*/
+	width: 1600px;
+	height: 100px;
+	background:url(/syslab-kh/Web/Tpl/Index/Public/images/top1.png);
+	z-index:1;
+}
+.h1{
+	position:relative;
+	left:200px; /*左右位置*/ 
+	top:40px;
+}
+.h2{
+	position:relative;
+	left:1200px; /*左右位置*/ 
+	top:0px
+}
+.p{
+	position:absolute;
+	left:200px; /*左右位置*/ 
+	top:40px;
+	color:blue;
+}
+a{TEXT-DECORATION:none}a:hover{TEXT-DECORATION:underline}
+.bord{
+	position:relative;
+	left:500px; /*左右位置*/ 
+	top:490px;
+
+
+}
+.q{
+	float: left;
+}
+#se{
+	margin-left: 8.5px;
+}
+#btn1{
+	width: 120px;
+	margin-left: 0px;
+}
+#btn3{
+	width: 200px;
+	margin-left: 20em;
+}
+#sys{
+	float: left;
+}
+
+
+

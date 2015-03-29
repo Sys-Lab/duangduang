@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit(); echo '这是你刚才注册的信息'; echo $_POST['name']; ?>

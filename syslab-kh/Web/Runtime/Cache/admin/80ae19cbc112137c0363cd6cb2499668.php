@@ -3,7 +3,7 @@
 	
 </head>
 <body>
-	<div>
+	<div id="p1">
 		<p>name: <?php echo ($data["username"]); ?></p>
 		<p>time: <?php echo ($data["time"]); ?></p>
 		<p>ip:  <?php echo ($data["ip"]); ?></p>

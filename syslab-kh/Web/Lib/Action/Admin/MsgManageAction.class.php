@@ -8,7 +8,7 @@ class MsgManageAction extends Action{
 		$page = new Page($count,10);
 		$limit = $page->firstRow .','. $page->listRows;
 
-		$content = M('content')->order('time DESC')->limit($limit)->select();
+		$content = M('content')->order('id DESC')->limit($limit)->select();
 		$this->content = $content;
 		$this->page = $page->show(); 
 		$this->display();

@@ -29,7 +29,7 @@ Class LoginAction extends Action{
 		$pwd = I('password','','md5');
 		if(!$user||$user['password']!=$pwd){
 
-			$this->error('其实你的帐号或密码并不正确');
+			$this->error('然而你的帐号或密码并不正确');
 		}
 
 		$data = array(

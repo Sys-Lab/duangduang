@@ -11,13 +11,13 @@
 <body>
 	<table class="table">
 		<tr>
-			<th>用户id</th>
+			<th>用户</th>
 			<th>评论内容</th>
 			<th>发布时间</th>
 			<th>删除</th>
 		</tr>
 		<?php if(is_array($content)): foreach($content as $key=>$v): ?><tr>
-			<td><?php echo ($v["id"]); ?></td>
+			<td><?php echo ($v["name"]); ?></td>
 			<td><?php echo ($v["content"]); ?></td>
 			<td><?php echo ($v["time"]); ?></td>
 			<td>

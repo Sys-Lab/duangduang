@@ -9,10 +9,12 @@
 </head>
 <body>
 	<div class="well" id="d1">
-		<form method="POST" action="<?php echo U('Admin/NewsManage/add');?>">
-		 新闻标题:  <input type="text" name="title"><br>
-		 新闻内容:  <input type="text" name="content"><br>
-		 <input type="submit" name="sub">
+		<form method="POST" action="<?php echo U('Admin/NewsManage/add');?>" id="f1">
+		 新闻标题:  <input type="text" name="title" style="width:500px;height:30px;font-size:20px;"></br>
+		 
+		 新闻内容:  <textarea type="text" name="content" id="content" style="width:600px;height:400px;font-size:20px;margin-top:30px;"></textarea>
+		 </br>
+		 <input type="submit" name="sub" style="width:50px">
 		</tr>
 		 
 		</form>

@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="/syslab-kh/Web/Tpl/Admin/Public/css/index_hd.css" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <base target="iframe"/>
+<title>后台管理</title>
 <head>
 </head>
 <body>
@@ -20,7 +21,7 @@
 		</div>
 			<div class="exit">
 				<a href="{:U('Admin/Index/logout')}" target="_self">退出</a>
-				<a href="{:U('Index/Index/index')}" target="_blank">SysLab</a>
+				<a href="{:U('Index/Index/indextwo')}" target="_blank">SysLab</a>
 			</div>
 		</div>
 		<div id="left">
@@ -32,7 +33,9 @@
 			<dl>
 				<dt>网站管理</dt>
 				<dd><a href="{:U('Admin/NewsManage/index')}">发布新闻</a></dd>
-				<dd><a href="#">修改成员信息</a></dd>
+				<dd><a href="{:U('Admin/Pro/index')}">发布项目</a></dd>
+				<dd><a href="{:U('Admin/Member/index')}">修改成员信息</a></dd>
+
 
 			</dl>
 			<dl>

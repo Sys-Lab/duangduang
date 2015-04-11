@@ -4,22 +4,27 @@
 		首页视图
 	*/
 	class IndexAction extends Action{
-		
-		Public function index(){
+		public function index(){
 			$this->display();
-			//$us=M('user')->select();
-			//$this->assign('user',$us)->display();
+		}
+		Public function indextwos(){
+			$this->display();
+			 
 			
 		}
 
-	/*
-		异步提交
-		
-	*/
-		Public function handle(){
-
+		public function about(){
+			$this->display();
 
 		}
+
+		public function membersw(){
+			$this->display();
+		}
+
+		 
+
+	 
 	}
 
 ?>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><html>  
+<?php if (!defined('THINK_PATH')) exit();?>	<html>  
 <head lang="en"> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-compatible" content="IE=edge">
@@ -26,7 +26,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="<?php echo U('Index/Index/index');?>" id="sys">Sys-Lab</a>
+					<a class="navbar-brand" href="<?php echo U('Index/Index/indextwo');?>" id="sys">Sys-Lab</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,8 +52,8 @@
 			</div>
 		</div>-->
 		<div class="bord">
-			<div class="q" style="margin-left:10px"><a href><img id="a" alt="图片A" src="/syslab-kh/Web/Tpl/Index/Public/images/2.png" onmouseover="showB(this)" onmouseout="showA(this)"></img></a></div>
-			<div class="q" style="margin-left:75px"><a href><img id="a" alt="图片c" src="/syslab-kh/Web/Tpl/Index/Public/images/4.png" onmouseover="showd(this)" onmouseout="showc(this)"></img></a></div>
+			<div class="q" style="margin-left:10px"><a href="<?php echo U('Index/Index/membersw');?>"><img id="a" alt="图片A" src="/syslab-kh/Web/Tpl/Index/Public/images/2.png" onmouseover="showB(this)" onmouseout="showA(this)"></img></a></div>
+			<div class="q" style="margin-left:75px"><a href="<?php echo U('Index/Index/about');?>"><img id="a" alt="图片c" src="/syslab-kh/Web/Tpl/Index/Public/images/4.png" onmouseover="showd(this)" onmouseout="showc(this)"></img></a></div>
 			<div class="q" style="margin-left:75px"><a href="<?php echo U('Index/ResManage/index');?>"><img id="a" alt="图片e" src="/syslab-kh/Web/Tpl/Index/Public/images/6.png" onmouseover="showf(this)" onmouseout="showe(this)"></img></a></div>
 			<div class="q" style="margin-left:75px"><a href="<?php echo U('Index/NewsManage/index');?>"><img id="a" alt="图片g" src="/syslab-kh/Web/Tpl/Index/Public/images/8.png" onmouseover="showh(this)" onmouseout="showg(this)"></img></a></div>
 		</div>

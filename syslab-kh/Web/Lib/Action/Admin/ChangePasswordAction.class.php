@@ -26,7 +26,10 @@
 			$data = array(
 				'password' => $new1,				
 			);
+
 			M('user')->where(array('id'=>$pass['id']))->save($data);
+				 
+			
 
 			$this->redirect('Admin/Login/index','','');
 		}

@@ -84,7 +84,7 @@ content: " ";
 #logo{
 	width: 200px;
 	height: 70px;
-	background: url(../image/logo.png) no-repeat;
+	background: url(/syslab-kh/Web/Tpl/Index/Public/images/logo.png) no-repeat;
 	background-position: center;
 	display: inline-block;
 }

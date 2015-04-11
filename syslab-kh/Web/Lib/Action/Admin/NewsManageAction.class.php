@@ -14,7 +14,7 @@
 				);
 
 			if(M('news')->add($data)){
-				$this->success('删除成功啦');
+				$this->success('发布成功啦');
 			}
 		}
 	}

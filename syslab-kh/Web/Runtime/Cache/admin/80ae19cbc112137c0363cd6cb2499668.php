@@ -4,9 +4,11 @@
 </head>
 <body>
 	<div id="p1">
-		<p>name: <?php echo ($data["username"]); ?></p>
-		<p>time: <?php echo ($data["time"]); ?></p>
-		<p>ip:  <?php echo ($data["ip"]); ?></p>
+		<p>Name: <?php echo ($data["username"]); ?></p>
+		<p>Time: <?php echo ($data["time"]); ?></p>
+		<p>Ip:  <?php echo ($data["ip"]); ?></p>
+		<p>Host:  <?php echo ($data["browser"]); ?></p>
+		<p>Language:  <?php echo ($data["la"]); ?></p>
 	</div>
 </body>
 </html>

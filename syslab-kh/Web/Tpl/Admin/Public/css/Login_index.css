@@ -1,4 +1,13 @@
 #d1{
-
+	height: 1000px;
+	width: 1000px;
 	margin-left: 200px;
+}
+#f1{
+	height: 1000px;
+	width: 1000px;
+}
+#content{
+	height: 10000px;
+	width: 1000px;
 }

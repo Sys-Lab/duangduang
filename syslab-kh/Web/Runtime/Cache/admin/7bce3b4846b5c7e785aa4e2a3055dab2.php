@@ -31,7 +31,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="<?php echo U('Index/Index/index');?>" id="sys">Sys-Lab</a>
+					<a class="navbar-brand" href="<?php echo U('Index/Index/indextwo');?>" id="sys">Sys-Lab</a>
 
 				</div>
 			</nav>

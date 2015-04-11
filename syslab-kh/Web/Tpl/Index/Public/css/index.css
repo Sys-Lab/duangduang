@@ -73,7 +73,7 @@
 	height:100px;
 	position:absolute;
 	top:120px;
-	background:url(../images/ddd.gif) no-repeat 0 0;
+	background:url(/syslab-kh/Web/Tpl/Index/Public/images/ddd.gif) no-repeat 0 0;
 	cursor:pointer;
 }
 #focus .pre{
@@ -166,13 +166,13 @@ padding: 0;
 	font-size: 0.7em; 
 }
 .weibo{
-	background: url(../image/bg1.jpg) no-repeat right center;
+	background: url(/syslab-kh/Web/Tpl/Index/Public/image/bg1.jpg) no-repeat right center;
 }
 .faq{
-	background: url(../image/bg2.jpg) no-repeat right center;
+	background: url(/syslab-kh/Web/Tpl/Index/Public/image/bg2.jpg) no-repeat right center;
 }
 .weibo .button{
-	background: url(../image/icon_weibo.png) no-repeat 6px center;	
+	background: url(/syslab-kh/Web/Tpl/Index/Public/image/icon_weibo.png) no-repeat 6px center;	
 	padding-left: 32px
 }
 .button{
@@ -194,7 +194,7 @@ padding: 0;
 	font-size: 15px;
 }
 .about li div{
-		background: url(../image/icon.png) no-repeat;
+		background: url(/syslab-kh/Web/Tpl/Index/Public/image/icon.png) no-repeat;
 		margin-right: 15px;
 }
 .ft_1{
@@ -235,9 +235,10 @@ padding: 0;
 }
 .pre{
 	left: -2px;
-	background-image: url(../image/prev.png);
+	background-image: url(/syslab-kh/Web/Tpl/Index/Public/image/prev.png);
 }
 .next{
-	background-image: url(../image/next.png);
+	background-image: url(/syslab-kh/Web/Tpl/Index/Public/image/next.png);
 	right: 0px;
 }
+ 

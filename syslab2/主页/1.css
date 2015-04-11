@@ -1,0 +1,45 @@
+body{
+	margin:0 auto;
+	
+}
+div {
+	margin:0 auto;
+}
+.bj{
+	width: 1600px;
+	height: 800px;
+	background:url(images/bj2.png);
+	
+	}
+.top{
+    position:relative; 
+    left:0px; /*左右位置*/ 
+    top:0px;/*上下位置*/
+	width: 1600px;
+	height: 100px;
+	background:url(images/top1.png);
+	z-index:1;
+	}
+.h1{
+	position:relative;
+	left:200px; /*左右位置*/ 
+    top:40px
+}
+.h2{
+	position:relative;
+	left:1200px; /*左右位置*/ 
+    top:0px
+}
+.p{
+	position:absolute;
+	left:200px; /*左右位置*/ 
+    top:40px;
+    color:blue;
+}
+a{TEXT-DECORATION:none}a:hover{TEXT-DECORATION:underline}
+.bord{
+	position:absolute;
+	left:500px; /*左右位置*/ 
+    top:550px
+}
+.q{float:left;}

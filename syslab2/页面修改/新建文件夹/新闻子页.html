@@ -1,0 +1,110 @@
+<html>  
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<meta name="keyword" content="syslab"></meta>
+<meta name="description" content="syslab"></meta>
+<meta name="author" content="严涵"></meta>
+<title>新闻子页面</title>
+<link rel="stylesheet" href="css/we.css">
+<link href="we.css" rel="stylesheet" type="text/css"> 
+<script type="text/javascript"> 
+var oBtn = null; 
+var oForm = null; 
+var oText = null; 
+var oTextarea = null; 
+var timer = null; 
+var speed = 0; 
+var oLi = null 
+var oH3 = null; 
+var oP = null; 
+window.onload = function() 
+{ 
+oBtn = document.getElementById("btn"); 
+oBtn.onclick = getValue; 
+}; 
+function getValue() 
+{ 
+document.getElementById("message_text").style.display = "block"; 
+oForm = document.getElementsByTagName("form")[0]; 
+oText = document.getElementById("text"); 
+oTextarea = document.getElementsByTagName("textarea")[0]; 
+oUl = document.getElementById("message_text").getElementsByTagName("ul")[0]; 
+oForm.onsubmit = function(){ return false; }; 
+if( oText.value == "" || oTextarea.value == "" ) 
+{ 
+alert("提交成功"); 
+return; 
+} 
+oLi = document.createElement("li"); 
+oH3 = document.createElement("h3"); 
+oP = document.createElement("p"); 
+oH3.innerHTML = oText.value; 
+oP.innerHTML = oTextarea.value; 
+if(oUl.childNodes[0]) 
+{ 
+oUl.insertBefore(oLi,oUl.childNodes[0]); 
+} 
+else 
+{ 
+oUl.appendChild(oLi); 
+} 
+oLi.appendChild(oH3); 
+oLi.appendChild(oP); 
+oText.value = ""; 
+oTextarea.value = ""; 
+var h = oLi.offsetHeight; 
+oLi.style.height = '0px'; 
+if(timer) 
+{ 
+clearInterval(timer); 
+} 
+timer = setInterval("goTime("+h+")", 35); 
+goTime(h); 
+} 
+function goTime(target) 
+{ 
+var top = oLi.offsetHeight; 
+speed += 3; 
+top += speed; 
+if(top > target) 
+{ 
+top = target; 
+speed *= -0.7; 
+} 
+if(top===target && Math.abs(speed) < 3) 
+{ 
+clearInterval(timer); 
+timer = null; 
+oLi.style.height = target + "px"; 
+} 
+oLi.style.height = top + "px"; 
+} 
+</script> 
+</head>
+<body>
+	<div class="bj">
+	<div class="p1">
+		<h1 style="position: relative;top: 0px;left:220px;">新闻标题</h1>
+		<p style="position: relative;top: 150px;left:220px;">内容（800字</p>
+
+<div style="position:absolute;top:300px;left:0px">
+<div id="box"> 
+<ul id="fill_in"> 
+<form> 
+<li>姓名：<input id="text" type="text" class="text" /></li> 
+<li>内容：<textarea id="content" style="width:300px; height:100px"></textarea></li> 
+<li><input id="btn" type="submit" value="提交" class="btn" /></li> 
+</form> 
+</ul> 
+<div id="message_text"> 
+<h2>显示留言</h2> 
+<ul></ul> 
+</div> 
+</div> 
+</div>
+
+
+	</div>
+	</div>	
+</body>
+</html>

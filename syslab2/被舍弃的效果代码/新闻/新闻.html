@@ -1,0 +1,344 @@
+<html>  
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<meta name="keyword" content="syslab"></meta>
+<meta name="description" content="syslab"></meta>
+<meta name="author" content="严涵"></meta>
+<link href="css/jsdaima.css" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/tab.css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
+<script type="text/javascript" src="js/jsdaima.js"></script> 
+<link rel="stylesheet" href="css/vertical.news.slider.css">
+<title>主页</title>
+<style>
+body{
+	margin:0 auto;
+	
+}
+div {
+	margin:0 auto;
+}
+.bj{
+	width: 1600px;
+	height: 900px;
+	background:url(images/bj2.png);
+	
+	}
+.top{
+    position:relative; 
+    left:0px; /*左右位置*/ 
+    top:0px;/*上下位置*/
+	width: 1600px;
+	height: 100px;
+	background:url(images/top1.png);
+	z-index:1;
+	}
+	.xinwen{ 
+		position:relative; 
+    left:0px; /*左右位置*/ 
+    top:0px;/*上下位置*/
+	width: 600px;
+	height: 600px;
+	background:url(images/xinwen.png);
+	z-index:2;}
+.h1{
+	position:relative;
+	left:200px; /*左右位置*/ 
+    top:40px
+}
+.h2{
+	position:absolute;
+	left:1200px; /*左右位置*/ 
+    top:40px
+}
+.h3{
+	position:absolute;
+	left:500px; /*左右位置*/ 
+    top:40px
+}
+.h4{
+	position:absolute;
+	left:600px; /*左右位置*/ 
+    top:40px
+}
+.h5{
+	position:absolute;
+	left:700px; /*左右位置*/ 
+    top:40px
+    }
+.h6{
+	position:absolute;
+	left:800px; /*左右位置*/ 
+    top:40px
+  }
+.p{
+	position:absolute;
+	left:200px; /*左右位置*/ 
+    top:40px;
+    color:blue;
+}
+a{TEXT-DECORATION:none}a:hover{TEXT-DECORATION:underline}
+.bord{
+	position:relative;
+	left:500px; /*左右位置*/ 
+    top:550px
+}
+.q{float:left;}
+#box,#box2,#box3,#box4{padding:10px;width: 940px;height: 800px;position:relative;
+   /*左右位置*/ 
+    top:80px;
+    color:blue}
+#box3{background:url(images/xinwen.png)}
+
+.p1{font-size:14px} 
+
+</style>
+<script>
+function MM_over(mmObj) {
+	var mSubObj = mmObj.getElementsByTagName("div")[0];
+	mSubObj.style.display = "block";
+	mSubObj.style.backgroundColor = ":#C0C0C0";
+	
+	
+}
+function MM_out(mmObj) {
+	var mSubObj = mmObj.getElementsByTagName("div")[0];
+	mSubObj.style.display = "none";
+	
+}
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+var openTip = oOpenTip || "";
+var shutTip = oShutTip || "";
+if(targetObj.style.display!="none"){
+   if(shutAble) return;
+   targetObj.style.display="none";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = shutTip; 
+   }
+} else {
+   targetObj.style.display="block";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = openTip; 
+   }
+}
+}
+</script>
+</head>
+<body>
+	<div class="bj">
+		<div onmouseover="MM_over(this)" onmouseout="MM_out(this)" >
+			<font class="p" size=14>Syslab</font>
+		<div class="top" >
+			<div class="h1"><p><font color=blue size=14>Syslab </font></p></div>
+			<div >
+				<div class="h3"><a href="###" onclick="openShutManager(this,'box',false,'简介','简介')">简介</a></div>
+                <div id="box" style="display:none">
+             
+               </div>
+            
+            <div class="h4"><a href="###" onclick="openShutManager(this,'box2',false,'成员','成员')">成员</a></div>
+                <div id="box2" style="display:none">
+               </div>
+            
+            <div class="h5"><a href="###" onclick="openShutManager(this,'box3',false,'新闻','新闻')">新闻</a></div>
+               <div> 
+               	<div id="box3" style="display:none" >
+               
+                <div style="position:absolute;left:50px; /*左右位置*/ top:80px">
+                <div class="film_focus">
+                <div class="film_focus_desc">
+                <h3>syslab</h3>
+                <ul class="film_focus_nav">
+                <li class="cur"> <b>自由之翼是未来的标准</b><span>自由</span> </li>
+                <li> <b>自由之翼是未来的标准</b><span>自由</span> </li>
+                <li> <b>自由之翼是未来的标准</b><span>自由</span> </li>
+                <li> <b>自由之翼是未来的标准</b><span>自由</span> </li>
+                <li> <b>自由之翼是未来的标准</b><span>自由</span> </li>
+    </ul>
+  </div>
+  <div class="film_focus_imgs_wrap">
+    <ul class="film_focus_imgs">
+      <li><a target="_blank" href=""><img  src="images/34.png" alt="新闻标题1" /></a></li>
+      <li><a target="_blank" href=""><img  src="images/34.png" alt="新闻标题2" /></a></li>
+      <li><a target="_blank" href=""><img src="images/34.png" alt="新闻标题3" /></a></li>
+      <li><a target="_blank" href=""><img  src="images/34.png" alt="新闻标题4" /></a></li>
+      <li><a target="_blank" href=""><img  src="images/34.png" alt="新闻标题5" /></a></li>
+    </ul>
+  </div>
+</div>
+<!--焦点图END--> 
+<script type="text/javascript">
+$(function(){
+  $(".film_focus").th_video_focus({
+    navContainerClass:".film_focus_nav",
+    focusContainerClass:".film_focus_imgs",
+    delayTime:3000
+  });
+}); 
+</script>
+</div>
+<div>
+  <div id="tab" style="margin-top:450px;right:80px">
+        <h3 class="up" id="two1" onmouseover="setContentTab('two',1,4)">新闻动态<a href="#">[更多]</a></h3>
+        <div class="block" id="con_two_1">
+            <ul >
+                <li><a class="tab_title" href="#">新闻标题1</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">新闻标题2</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">新闻标题3</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">新闻标题4</a><span>2015-03-28</span></li>
+
+            </ul>
+           
+        </div>
+        <h3 id="two2" onmouseover="setContentTab('two',2,4)">项目发布<a href="#">[更多]</a></h3>
+        <div id="con_two_2">
+            <ul >
+                <li><font color="black"><a class="tab_title" href="#">项目发布1</a><span>2015-03-28</span></font></li>
+                <li><a class="tab_title" href="#">项目发布2</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">项目发布3</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">项目发布4</a><span>2015-03-28</span></li>
+                
+            </ul>
+        </div>
+        <h3 id="two3" onmouseover="setContentTab('two',3,4)">成果展示<a href="#">[更多]</a></h3>
+        <div id="con_two_3">
+            <ul >
+                <li><a class="tab_title" href="#">成果展示1</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">成果展示2</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">成果展示3</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">成果展示4</a><span>2015-03-28</span></li>
+            </ul>
+        </div>
+        <h3 id="two4" onmouseover="setContentTab('two',4,4)">评论交流<a href="#">[更多]</a></h3>
+        <div id="con_two_4">
+            <ul >
+                <li><a class="tab_title" href="#">评论交流1</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">评论交流2</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">评论交流3</a><span>2015-03-28</span></li>
+                <li><a class="tab_title" href="#">评论交流4</a><span>2015-03-28</span></li>
+            </ul>
+        </div>
+    </div>
+  
+<script type="text/javascript">
+ function setContentTab(name, curr, n) {
+    for (i = 1; i <= n; i++) {
+        var menu = document.getElementById(name + i);
+        var cont = document.getElementById("con_" + name + "_" + i);
+        menu.className = i == curr ? "up" : "";
+        if (i == curr) {
+            cont.style.display = "block";
+        } else {
+            cont.style.display = "none";
+        }
+    }
+}
+</script>
+</div>
+</div>
+</div>
+<div class="h6"><a href="###" onclick="openShutManager(this,'box4',false,'加入我们','加入我们')">加入我们</a></div>
+<div id="box4" style="display:none">
+<div class="p1" topmargin="0" style="position:absolute;left:150px;width:500px">
+<form enctype="multipart/form-data">  
+<table width="550" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#3399FF">  
+<tr align="center" valign="middle" bgcolor="#FFFFFF">  
+<td height="30" colspan="4" bgcolor="#B7DAF9">个人简历</td> 
+</tr>  
+<tr bgcolor="#FFFFFF">  
+<td width="16%" height="30">真实姓名:</td>  
+<td height="30" colspan="3"><input name="name" type="text" id="name" maxlength="50"></td> 
+ </tr>  
+ <tr bgcolor="#ffffff"> 
+ <td height=30>年龄:</td> 
+ <td 
+width="36%" 
+height="30"><input 
+name="age" 
+type="text" 
+id="age" 
+maxlength="10" 
+size="10"></td>  
+ <td width="9%" height="30">
+性别
+:</td> 
+ <td width="39%" height="30">  
+ <input name="sex" type="radio" checked="checked" />
+男
+<input name="sex" type="radio" checked="checked" />
+女
+</td> 
+</tr>  
+ <tr bgcolor="#ffffFF">  
+ <td height="30">毕业院校:</td><br />  
+ <td height="30" colspan="3"><input name="school" type="text" id="school" 
+maxlength="50" /></td> 
+ </tr>  
+ <tr bgcolor="#FFFFFF">  
+ <td height="30">
+所学专业
+</td>  
+ <td height="30" colspan="3"><select name="spe" id="spe"> 
+ <option value="0">
+选择专业
+</option> 
+ <option value="1">
+信息工程
+</option> 
+ <option value="2">
+软件工程
+</option>  
+<option value="3">
+大型主机
+</option> 
+ <option value="4">
+数字动漫
+</option>
+<option value="5">
+网络安全
+</option> 
+<option value="6">
+嵌入式
+</option> 
+<option value="7">
+信息获取
+</option>
+ </select></td> 
+ </tr>  
+
+<tr bgcolor="#FFFFFF">  
+<td height="30">联系方式</td>  
+<td height="30" colspan="3"><input name="tel" type="text" id="tel" /></td> 
+</tr>  
+<tr bgcolor="#FFFFFF">  
+<td height="30">照片上传:</td>  
+<td height="30" colspan="3"><input name="pic" type="file" id="pic" /></td> </tr>  
+<tr bgcolor="#FFFFFF"> 
+<td height="30">爱好</td> 
+<td height="30" colspan="3">  
+<input name="favorite" type="checkbox" id="favorite" value="0" />计算机
+<input name="favorite" type="checkbox" id="favorite" value="1" />英语
+<input name="favorite" type="checkbox" id="favorite" value="2" />体育
+ <input name="favorite" type="checkbox" id="favorite" value="3" />旅游</td> 
+</tr>  
+ <tr bgcolor="#FFFFFF">  
+ <td height="30">工作简历</td>  
+ <td height="30" colspan="3"><textarea name="sunmery" cols="60" rows="8" id="sunmery"></textarea></td> 
+ </tr>  
+ <tr bgcolor="#FFFFFF">  
+ <td height="30">&nbsp;</td>  
+ <td height="30" colspan="3"><input type="submit" name="submit" value="提交" /> 
+ <input type="reset" name="submit" value="重置" /></td> 
+ </tr> 
+</table> 
+</div>             
+</div>       
+<font class="h2"><a href>管理员登陆</a></font>			
+</div>
+</div>
+</div>     
+</div>
+</body>  
+</html> 

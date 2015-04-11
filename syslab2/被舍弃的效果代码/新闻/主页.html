@@ -1,0 +1,123 @@
+<html>  
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<meta name="keyword" content="syslab"></meta>
+<meta name="description" content="syslab"></meta>
+<meta name="author" content="严涵"></meta>
+<title>主页</title>
+<style>
+body{
+	margin:0 auto;
+	
+}
+div {
+	margin:0 auto;
+}
+.bj{
+	width: 1600px;
+	height: 800px;
+	background:url(images/bj2.png);
+	
+	}
+.top{
+    position:relative; 
+    left:0px; /*左右位置*/ 
+    top:0px;/*上下位置*/
+	width: 1600px;
+	height: 100px;
+	background:url(images/top1.png);
+	z-index:1;
+	}
+.h1{
+	position:relative;
+	left:200px; /*左右位置*/ 
+    top:40px
+}
+.h2{
+	position:relative;
+	left:1200px; /*左右位置*/ 
+    top:0px
+}
+.p{
+	position:absolute;
+	left:200px; /*左右位置*/ 
+    top:40px;
+    color:blue;
+}
+a{TEXT-DECORATION:none}a:hover{TEXT-DECORATION:underline}
+.bord{
+	position:absolute;
+	left:500px; /*左右位置*/ 
+    top:550px
+}
+.q{float:left;}
+</style>
+<script>
+function MM_over(mmObj) {
+	var mSubObj = mmObj.getElementsByTagName("div")[0];
+	mSubObj.style.display = "block";
+	mSubObj.style.backgroundColor = ":#C0C0C0";
+	
+	
+}
+function MM_out(mmObj) {
+	var mSubObj = mmObj.getElementsByTagName("div")[0];
+	mSubObj.style.display = "none";
+	
+}
+function showA(obj)
+{
+obj.src="images/2.png";
+}
+function showB(obj)
+{
+obj.src="images/3.png"  
+}
+
+function showc(obj)
+{
+obj.src="images/4.png";
+}
+function showd(obj)
+{
+obj.src="images/5.png"  
+}
+
+function showe(obj)
+{
+obj.src="images/6.png";
+}
+function showf(obj)
+{
+obj.src="images/7.png"  
+}
+
+function showg(obj)
+{
+obj.src="images/8.png";
+}
+function showh(obj)
+{
+obj.src="images/9.png"  
+}
+</script>
+</head>
+<body>
+	<div class="bj">
+		<div onmouseover="MM_over(this)" onmouseout="MM_out(this)" >
+			<font class="p" size=14>Syslab</font>
+		<div class="top" >
+			<div class="h1"><p><font color=blue size=14>Syslab </font></p></div>
+			<div class="h2"><p><a href>管理员登陆</a></p></div>
+		</div>
+        </div>
+        <div class="bord">
+        	<div class="q" style="margin-left:0px"><a href><img id="a" alt="图片A" src="images/2.png" onmouseover="showB(this)" onmouseout="showA(this)"></img></a></div>
+        	<div class="q" style="margin-left:75px"><a href><img id="a" alt="图片c" src="images/4.png" onmouseover="showd(this)" onmouseout="showc(this)"></img></a></div>
+        	<div class="q" style="margin-left:100px"><a href><img id="a" alt="图片e" src="images/6.png" onmouseover="showf(this)" onmouseout="showe(this)"></img></a></div>
+        	<div class="q" style="margin-left:125px"><a href><img id="a" alt="图片g" src="images/8.png" onmouseover="showh(this)" onmouseout="showg(this)"></img></a></div>
+        </div>
+	</div>
+
+</body>  
+</html> 
